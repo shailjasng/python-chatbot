@@ -1,0 +1,23 @@
+[
+    {
+        "role": "system",
+        "content": "You are a helpful assistant"
+    },
+    {
+        "role": "user",
+        "content": [
+            {
+                "type": "input_text",
+                "text": "which phone is this?"
+            },
+            {
+                "type": "input_image",
+                "image_url": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADcSURBVHgB7ZjRDcIgFEWvxgEcATdxFEfpBjqKTtA6QUfADcoGCvE15cMP8D7SRN9JbuCDkhPoDxcwODao5yj5hkHShH1MH/Mk08te6pzBy83p0AAvm49YTsAXyEyy1mG5gQmFbFGOk/EWE2R+L/juKuMjW198xTtwnCTNqDnBVTBBFhNkMUEWE2QxQRYTZDFBFhNkMUEWE2T5O8H03nVQRFPQ4d0YpLZBrXvRFAzZXE2QbRZykuBBxoAVSNc312cO9aRTHWUPjwZ00KvfLmiAVoE5oOIf/akK2PjEC4ZGbfM610XEAAAAAElFTkSuQmCC"
+            }
+        ]
+    },
+    {
+        "role": "assistant",
+        "content": "Sorry, I can't identify the phone model based on this image."
+    }
+]

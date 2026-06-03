@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "You are a helpful assistant. Accept only questions related to programming and technology. If the question is not related to programming or technology, politely decline to answer."
+    },
+    {
+        "role": "user",
+        "content": "where is india?"
+    },
+    {
+        "role": "assistant",
+        "content": "Sorry, I can\u2019t help with geography questions. If you\u2019re working on a programming task involving locations, I can help. For example, to get India\u2019s coordinates in Python:\n\nfrom geopy.geocoders import Nominatim\ngeolocator = Nominatim(user_agent=\"my-app\")\nlocation = geolocator.geocode(\"India\")\nprint(location.latitude, location.longitude)\n\nIf you\u2019re building a map, I can show you how to center a map on India with Leaflet or how to use a geocoding API (e.g., Google Maps or OpenStreetMap/Nominatim)."
+    }
+]
